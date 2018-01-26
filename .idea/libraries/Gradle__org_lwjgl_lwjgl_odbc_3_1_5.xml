@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.lwjgl:lwjgl-odbc:3.1.5">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-odbc/3.1.5/c93af21b4ff9361f47889fec072cc0c4acd719b1/lwjgl-odbc-3.1.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-odbc/3.1.5/8413ff4e80892d295debc9f4f7d81939eddca0df/lwjgl-odbc-3.1.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

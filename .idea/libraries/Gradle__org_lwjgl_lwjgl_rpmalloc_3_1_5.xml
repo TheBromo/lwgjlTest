@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.lwjgl:lwjgl-rpmalloc:3.1.5">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-rpmalloc/3.1.5/3d812f584b27c8b64f970b28aeab406ec2f2ee22/lwjgl-rpmalloc-3.1.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-rpmalloc/3.1.5/23adacf94f0ec5c279bbb4621de825076da46a59/lwjgl-rpmalloc-3.1.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
