@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.lwjgl:lwjgl-opengles:3.1.5">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengles/3.1.5/2b4507829775eff588300fc5e56b53f33c95a1b5/lwjgl-opengles-3.1.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengles/3.1.5/d78014885bbc02558d45521729921b84d8bdafe9/lwjgl-opengles-3.1.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

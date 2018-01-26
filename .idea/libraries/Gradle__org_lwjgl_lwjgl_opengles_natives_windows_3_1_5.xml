@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.lwjgl:lwjgl-opengles:natives-windows:3.1.5">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengles/3.1.5/3b632e63e0e5c8bc7888b93d894458878f870a23/lwjgl-opengles-3.1.5-natives-windows.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengles/3.1.5/d78014885bbc02558d45521729921b84d8bdafe9/lwjgl-opengles-3.1.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

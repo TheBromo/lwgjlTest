@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.lwjgl:lwjgl-zstd:3.1.5">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-zstd/3.1.5/44a59be24754dde4eded4c5119dbc196ca32129d/lwjgl-zstd-3.1.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-zstd/3.1.5/5eb91cc618ccd56536ed6ab7fdb9efbf70ff4956/lwjgl-zstd-3.1.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
