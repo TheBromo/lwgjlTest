@@ -1,13 +1,16 @@
 import static org.lwjgl.glfw.GLFW.*;
 import static org.lwjgl.opengl.GL11.*;
+import static org.lwjgl.opengl.GL20.*;
+import static org.lwjgl.opengl.GL30.*;
 import static org.lwjgl.system.MemoryUtil.*;//NULL
 
-import java.nio.ByteBuffer;
-
+import graphics.Shader;
 import input.Input;
+import maths.Vector3f;
 import org.lwjgl.glfw.GLFWKeyCallback;
 import org.lwjgl.glfw.GLFWVidMode;
 import org.lwjgl.opengl.GL;
+import util.ShaderUtils;
 
 
 public class Main implements Runnable {
@@ -18,6 +21,7 @@ public class Main implements Runnable {
     private GLFWKeyCallback keyCallback;
 
     public long window;
+    private int vao ;
 
     private float x=0;
     private float colorRed=1;
@@ -63,7 +67,15 @@ public class Main implements Runnable {
 
 
         glEnable(GL_DEPTH_TEST);
+        Shader.loadAll();
 
+        vao = glGenVertexArrays();
+        glBindVertexArray(vao);
+
+        Shader shader = Shader.BASIC;
+
+        shader.enable();
+        shader.setUniform3f("col",new Vector3f(0.8f,0.2f,0.3f));
         System.out.println("GL: " + glGetString(GL_VERSION));
 
 
@@ -89,15 +101,7 @@ public class Main implements Runnable {
 
     public void render() {
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-
-        glBegin(GL_QUADS);
-
-            glColor4f(colorRed, 0, blueColor, 0);
-            glVertex2f(-0.5f+x, 0.5f);
-            glVertex2f(0.5f+x, 0.5f);
-            glVertex2f(0.5f+x, -0.5f);
-            glVertex2f(-0.5f+x, -0.5f);
-        glEnd();
+        glDrawArrays(GL_TRIANGLES,0,3);
 
         glfwSwapBuffers(window);
 

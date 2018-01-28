@@ -8,18 +8,18 @@ public class FileUtils {
     private FileUtils(){}
 
     public static String loadAsString(String file){
-        String result="";
+        StringBuilder result=new StringBuilder();
         try {
             BufferedReader reader = new BufferedReader(new FileReader(file));
             String buffer ="";
             while ((buffer =reader.readLine())!=null){
-                result += buffer +"\n";
+                result.append(buffer);
             }
             reader.close();
         } catch (java.io.IOException e) {
             e.printStackTrace();
         }
-        return result;
+        return result.toString();
 
 
     }
