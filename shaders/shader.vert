@@ -1,4 +1,4 @@
-#version 440 core
+#version 440
 
 void main(){
     const vec2 vertices[3]= vec2[3](
